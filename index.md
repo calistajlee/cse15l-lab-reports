@@ -70,7 +70,7 @@ To optimize remote running, you can write in commands in quotes at the end of th
 
 
 
-# *Basic* **Syntax** of the Markdown cheat sheet
+# *Basic* Syntax of the Markdown cheat sheet
 ## CSE 15L Lab 2
 [Link to CSE 15L webpage](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home)
 ![Image](https://www.google.com/search?q=cse&rlz=1C1RXQR_enUS995US995&sxsrf=APq-WBsVSYaMAQnxSd3hMyHlznM8D6GQUA:1649437866584&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjCo_fw-oT3AhWxD0QIHfpvDScQ_AUoBHoECAIQBg&biw=809&bih=922&dpr=2#imgrc=zGVXY_Cki4PhIM)
@@ -84,7 +84,7 @@ To optimize remote running, you can write in commands in quotes at the end of th
 * list three
 
 
-1. list 1
+1. **list 1**
 2. list 2
 3. list 3
 
