@@ -63,3 +63,6 @@ After this, you should be able to access the server from this client without nee
 To optimize remote running, you can write in commands in quotes at the end of the ssh command to run it on the remote server and exit after. To run multiple commands, you can separate then with semicolon. Keep in mind that you can only run commands for the server; you cannot run commands like scp on your client as it must be run on the server.
 
 ![This picture shows where I compiled and ran WhereAmI.java on the remote server.](file path)
+
+
+# new edit
