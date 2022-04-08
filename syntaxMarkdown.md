@@ -3,7 +3,7 @@
 [Link to CSE 15L webpage](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home)
 
 
-![Image](cse.png)
+![Image](cse.jpg)
 
 > Blockquote
 > continuation of blockquote
