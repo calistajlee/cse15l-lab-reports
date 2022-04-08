@@ -1,3 +1,4 @@
+
 # Week 2 Lab Report
 
 ## Installing VS Code
