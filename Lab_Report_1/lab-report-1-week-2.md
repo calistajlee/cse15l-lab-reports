@@ -3,7 +3,7 @@
 
 ---
 ## Installing VS Code
-To set up VS Code (a programming environment), go to the [download page](code.visualstudio.com) and click “Download” in the upper right corner. Download VS Code corresponding to your operating system (OS). Additionally, you must have Java downloaded on your computer. To do this, go to this [download page](https://www.oracle.com/java/technologies/downloads/) and download the Java Development Kit (JDK) according to your OS. Download both VS Code and and Java according to the default settings. 
+To set up VS Code (a programming environment), go to the [download page](https://code.visualstudio.com/download) and click “Download” in the upper right corner. Download VS Code corresponding to your operating system (OS). Additionally, you must have Java downloaded on your computer. To do this, go to this [download page](https://www.oracle.com/java/technologies/downloads/) and download the Java Development Kit (JDK) according to your OS. Download both VS Code and and Java according to the default settings. 
 
 *This is the website to download VS Code.*
 
@@ -22,8 +22,9 @@ To set up VS Code (a programming environment), go to the [download page](code.vi
 Remotely connecting means that you use your device to access connect to a remote computer to work on that device. Make sure you have your user name and your host name. For your course specific account, your host name should be ieng6.ucsd.edu. Your user name will be specific to you and you can find your username on [here](https://sdacs.ucsd.edu/~icc/index.php). In the terminal, type the command `ssh [username]@ieng.ucsd.edu`. Insert your username in the respective place in the command. 
 
 If it is the first time you are connecting, you will see a message saying: 
-'Are you sure you want to continue connecting (yes/no/[fingerprint])?'
-Type in yes. If it is not your first time, then you will not see this message. Then enter in your password when prompted to do so. Note that you will not see your password as you are typing it for security reasons.
+`Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+
+Type in `yes`. If it is not your first time, then you will **not** see this message. Then enter in your password when prompted to do so. Note that you will not see your password as you are typing it for security reasons.
 
 *Click “Terminal” and then “New Terminal” to open up a terminal on VS Code.*
 
@@ -74,10 +75,10 @@ class WhereAmI {
 ---
 ## Setting an SSH Key
 
-If you are not on Windows:
+**If you *are not* on Windows:**
   On your computer (client), run the command `ssh-keygen`.
   
-If you are on Windows:
+**If you *are* on Windows:**
   Run the command `ssh-keygen -t ed25519`.
   
 Press enter when it asks your for a passphrase. Do not enter anything to add a passphrase. 
