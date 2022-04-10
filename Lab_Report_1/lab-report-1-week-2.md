@@ -38,7 +38,7 @@ Type in `yes`. If it is not your first time, then you will **not** see this mess
 ## Trying Some Commands
 * Now that you have successfully remotely connected, you can try some commands.
 * Running the command `ls` in the terminal lists all of the computer files and directories in Linux. 
-* Running the command `cd perl5` changes the current working directory. After running the command ls, * I have a perl5 folder and by running `cd perl5`, I change my directory to this folder. 
+* Running the command `cd perl5` changes the current working directory. After running the command `ls`, I have a perl5 folder and by running `cd perl5`, I change my directory to this folder. 
 * Running the command cd .. changes the directory to the parent folder.
 
 *In this picture, I ran the commands `ls`, `cd perl5`, and `cd ..`*
@@ -47,7 +47,7 @@ Type in `yes`. If it is not your first time, then you will **not** see this mess
 
 ---
 ## Moving Files with scp
-Create a Java file on your computer called WhereAmI.java with the following contents: 
+We are going to try moving files from your computer to the remote computer. Create a Java file on your client called WhereAmI.java with the following contents (code is from Lab 1): 
 
 ```
 class WhereAmI {
@@ -81,7 +81,7 @@ class WhereAmI {
 **If you *are* on Windows:**
   Run the command `ssh-keygen -t ed25519`.
   
-Press enter when it asks your for a passphrase. Do not enter anything to add a passphrase. 
+Press enter when it asks your for a passphrase as we do not want to enter anything for a passphrase. 
 Then log into the server and enter in the command `mkdir .ssh`. 
 Back on client, run the command `scp /Users/[user-name]/.ssh/id_rsa.pub [username]@ieng6.ucsd.edu:~/.ssh/authorized_keys`. Replace user-name with your path and username with your log in to access the remote computers.
 After this, you should be able to access the server from this client without needing to put in your password.
@@ -92,7 +92,7 @@ After this, you should be able to access the server from this client without nee
 
 ---
 ## Optimizing Remote Running
-To optimize remote running, you can write in commands in quotes at the end of the ssh command to run it on the remote server and exit after. To run multiple commands, you can separate then with semicolon. Keep in mind that you can only run commands for the server; you cannot run commands like scp on your client as it must be run on the server.
+To optimize remote running, you can write in commands in quotes at the end of the ssh command to run it on the remote server and exit after. To run multiple commands, you can separate then with semicolon. Keep in mind that you can only run commands for the server; you cannot run commands like `scp` on your client as it must be run on the server.
 
 *This picture shows where I compiled and ran WhereAmI.java on the remote server.*
 
