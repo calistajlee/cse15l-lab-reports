@@ -3,7 +3,7 @@
 ## Change 1
 ![Screenshot of the code change difference from GitHub.](Change1Difference.png)
 
-[Link to test file with error](https://github.com/calistajlee/markdown-parser/commit/0929226d3c2b393bf8c64b5c9105412e890d6576) 
+[Link to test file with error](https://github.com/calistajlee/markdown-parser/blob/main/my-test.md) 
 
 ![Symtom of failure-inducing input](Change1Symptom.png)
 
