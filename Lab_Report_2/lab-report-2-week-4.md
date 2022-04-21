@@ -22,7 +22,7 @@ Screenshot of the code change difference from GitHub.
 
 ![Symtom of failure-inducing input](Change2Symptom.png)
 
-The symptom is the faulty program behavior that I can see, which was the program reading the third link even though no link was inputted. The failure-inducing input was running `[link3]()`. The bug is that the program did not account for not having any inputs.
+The symptom is that the program outputed the file name of the picture (bear.jpg). This program is only supposed to output links, not images. the failure-inducing input was running `![link4](bear.jpg)`. The bug is that the program did not account for skipping over images.
 
 
 
@@ -36,4 +36,4 @@ Screenshot of the code change difference from GitHub.
 Symtom of failure-inducing input
 ![Symtom of failure-inducing input](Change3Symptom.png)
 
-The symptom is the faulty program behavior that I can see, which was the program reading the third link even though no link was inputted. The failure-inducing input was running `[link3]()`. The bug is that the program did not account for not having any inputs.
+The symptom is that the program was reading the third link even though no link was inputted. This is why there is a blank in the third space of the list. The failure-inducing input was running `[link5]()` which was the program reading the third link even though no link was inputted. The bug is that the program did not account for creating links with no inputs.
