@@ -1,16 +1,18 @@
 # Week 6 Lab Report
 
 ## Streamlining ssh Configuration
-Show your .ssh/config file, and how you edited it (with VScode, another program, etc)
-![.ssh/config file]()
+**Show your .ssh/config file, and how you edited it (with VScode, another program, etc)**
+![.ssh/config file](streamliningssh1.png)
+I edited my .ssh/config file using Notepad.
+
+**Show the ssh command logging you into your account using just the alias you chose.**
+![ssh command](streamliningssh2.png) 
+I logged into my account using ssh ieng6calista, which is my alias that I chose.
 
 
-Show the ssh command logging you into your account using just the alias you chose.
-![ssh command]() 
-
-
-Show an scp command copying a file to your account using just the alias you chose.
-![scp command]()
+**Show an scp command copying a file to your account using just the alias you chose.**
+![scp command](streamliningssh3.png)
+I used `scp MarkdownParseTest.java ieng6calista:~` to copy MarkdownParseTest.java from my client to the server
 
 
 ---
