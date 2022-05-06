@@ -42,5 +42,5 @@ I used the command `scp -r . ieng6calista:~/group-clone-markdown-parser` to copy
 In this picture, I log into my ieng6 account and compile the tests for my repository by compiling with command `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` and running the program with `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`.
 
 **Show (like in the last step of the first lab) combining `scp`, `;`, and `ssh` to copy the whole directory and run the tests in one line.**
-![running tests in one line]()
-
+![running tests in one line](copywholedir3.png)
+I used the command `scp -r *.java *.md lib/ ieng6calista:group-clone-markdown-parser; ssh ieng6calista "cd group-clone-markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"`. This command copies the .java and .md files and then logs into the remote server. It then compiles and runs the junit tests on the remote server and then logs out.
