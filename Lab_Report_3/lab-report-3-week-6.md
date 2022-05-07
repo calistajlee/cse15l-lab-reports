@@ -17,10 +17,12 @@ I used `scp MarkdownParseTest.java ieng6calista:~` to copy MarkdownParseTest.jav
 
 ## Setup Github Access from ieng6
 **Show where the public key you made is stored on Github and in your user account (screenshot).**
-![public key stored on Github and in user account]()
+![public key stored on Github and in user account](ieng6githubaccess1.png)
+I followed the tutorial from [this link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add a new SSH key to my GitHub account.
+
 
 **Show where the private key you made is stored on your user account (but not its contents) as a screenshot.**
-![private key location]() 
+![private key location](ieng6githubaccess2.png) 
 
 **Show running `git` commands to commit and push a change to Github while logged into your ieng6 account.**
 ![running git commands to commit and push into ieng6]()
