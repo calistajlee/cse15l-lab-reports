@@ -27,9 +27,11 @@ After running the command `ssh-keygen`,
 
 **Show running `git` commands to commit and push a change to Github while logged into your ieng6 account.**
 ![running git commands to commit and push into ieng6](ieng6githubaccess3.png)
+This is a picture of running the commands `git add .`, `git commit -m "lab report 3 part 2`, and `git push`. I know I succeeded because I was able to check GitHub after comitting from the command line and saw that it updated.
 
 **Show a link for the resulting commit.**
-[link to resulting commit](https://github.com/calistajlee/group-clone-markdown-parser/commit/ad5e12e0b1f8ee9c13272c4829f76935777d5374)
+
+This is [the link to the resulting commit](https://github.com/calistajlee/group-clone-markdown-parser/commit/ad5e12e0b1f8ee9c13272c4829f76935777d5374). 
 
 ---
 
