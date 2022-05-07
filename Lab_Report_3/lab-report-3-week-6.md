@@ -23,12 +23,13 @@ I followed the tutorial from [this link](https://docs.github.com/en/authenticati
 
 **Show where the private key you made is stored on your user account (but not its contents) as a screenshot.**
 ![private key location](ieng6githubaccess2.png) 
+After running the command `ssh-keygen`, 
 
 **Show running `git` commands to commit and push a change to Github while logged into your ieng6 account.**
-![running git commands to commit and push into ieng6]()
+![running git commands to commit and push into ieng6](ieng6githubaccess3.png)
 
 **Show a link for the resulting commit.**
-[link to resulting commit]()
+[link to resulting commit](https://github.com/calistajlee/group-clone-markdown-parser/commit/ad5e12e0b1f8ee9c13272c4829f76935777d5374)
 
 ---
 
