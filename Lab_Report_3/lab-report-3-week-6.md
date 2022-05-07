@@ -23,7 +23,7 @@ I followed the tutorial from [this link](https://docs.github.com/en/authenticati
 
 **Show where the private key you made is stored on your user account (but not its contents) as a screenshot.**
 ![private key location](ieng6githubaccess2.png) 
-After running the command `ssh-keygen`, 
+After running the command `ssh-keygen`, I ran the command `cat id_rsa.pub` to get the key to past into GitHub.
 
 **Show running `git` commands to commit and push a change to Github while logged into your ieng6 account.**
 ![running git commands to commit and push into ieng6](ieng6githubaccess3.png)
