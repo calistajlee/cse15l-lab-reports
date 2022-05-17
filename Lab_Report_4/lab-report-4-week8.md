@@ -27,12 +27,3 @@
 
 
 * **Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.**
-
-
-cannot commit
-want us to actually make the change?
-the report that we looked at coding style last week?
-
-page cannot be found
-
-correct output
