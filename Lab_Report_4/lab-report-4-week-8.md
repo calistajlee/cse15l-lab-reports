@@ -31,7 +31,7 @@ For my implementation, this is the corresponding output when running the tests. 
 ![my implementation tests](test_my_repo.png)
 
 For the implementation in Week 7, this is the corresponding output when running the tests. It failed all three tests.
-![week 7 implementation tests](test_wee7_repo.png)
+![week 7 implementation tests](test_week7_repo.png)
 
 
 ---
