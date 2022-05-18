@@ -2,7 +2,8 @@
 
 **A link to your markdown-parse repository and a link to the one you reviewed in week 7:**
 
-
+* [My repository](https://github.com/calistajlee/lab6-markdown-parser)
+* [The repository I reviewed](https://github.com/calistajlee/markdown-parse-peer-review)
 ---
 
 **For each test above:**
