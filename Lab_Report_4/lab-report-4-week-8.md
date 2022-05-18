@@ -40,8 +40,10 @@ For the implementation in Week 7, this is the corresponding output when running 
 
 * **Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.**
 
+There is a small (<10 lines) code change that will make the program work for snippet 1 and all related cases that use inline code with backticks. We can use an if statement that says if the character at the current index is ever a backtick, we can remove it.
 
 * **Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.**
 
+No because you will have to write code that will match the ( ) or [ ] 
 
 * **Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.**
