@@ -27,6 +27,11 @@ This is my code in MarkdownParseTest.java and it shows how I turned it into JUni
 * **For your implementation, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.**
 **For the implementation you reviewed in Week 7, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.**
 
+For my implementation, this is the corresponding output when running the tests. It failed all three tests.
+![my implementation tests](test_my_repo.png)
+
+For the implementation in Week 7, this is the corresponding output when running the tests. It failed all three tests.
+![week 7 implementation tests](test_wee7_repo.png)
 
 
 ---
