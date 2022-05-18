@@ -12,6 +12,7 @@
 **Showing the code in MarkdownParseTest.java for how you turned it into a test**
 
 These pictures show the expected output in VS Code.
+
 Snippet 1:
 ![snippet1](snippet1.png)
 
