@@ -13,22 +13,29 @@ I ran the command `bash script.sh > results.txt` for my markdownparse file and f
 **test-files/201.md**
 
 * **Describe which implementation is correct, or neither if both give the wrong output**
+Neither implementation in my markdownparser file or the given markdownparse file is correct. As you can see in the pictures below, both files' actual outputs do not match the expected output.
 
 * **Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).**
-![actual ouputs](expectedoutputs.png)
-![expected outputs]()
+Actual output:
+![actual ouputs](actualoutputs.png)
+Expected output:
+![expected outputs](201expectedoutputs.png)
 
-* **What it should produce**
+* **For the implementation that’s not correct (or choose one if both are incorrect), describe the bug (the problem in the code) in about 2-3 sentences. You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed (Provide a screenshot of code and highlight where the change needs to be made).**
+
 
 
 ---
 **test-files/22.md**
 
 * **Describe which implementation is correct, or neither if both give the wrong output**
+Neither implementation in my markdownparser file or the given markdownparse file is correct. As you can see in the pictures below, both files' actual outputs do not match the expected output.
 
 * **Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).**
-![actual ouputs](expectedoutputs.png)
-![expected outputs]()
+Actual output:
+![actual ouputs](actualoutputs.png)
+Expected output:
+![expected outputs](22expectedoutputs.png)
 
-* **What it should produce**
+* **For the implementation that’s not correct (or choose one if both are incorrect), describe the bug (the problem in the code) in about 2-3 sentences. You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed (Provide a screenshot of code and highlight where the change needs to be made).**
 
