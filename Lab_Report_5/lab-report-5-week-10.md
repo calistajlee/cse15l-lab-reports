@@ -27,7 +27,7 @@ Expected output:
 
 * **For the implementation that’s not correct (or choose one if both are incorrect), describe the bug (the problem in the code) in about 2-3 sentences. You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed (Provide a screenshot of code and highlight where the change needs to be made).**
 
-Using my markdownparse file, the bug is that there is no check to see if there is a beginning round bracket right after the closing square bracket. The program needs to ignore content between the closing bracket and beginning parentheses. To fix that, there be an `if` statement checking this right before the code that looks for the beginning parantheses.
+Using my markdownparse file, the bug is that there is no check to just print out the text if no link is found. Instead of skipping over the whole line when there is no link, the program should continue printing out the text. To fix this, the program should start back at the opening bracket and print out the text if no link was found on that line. We can check if there is a link after the opening parentheses and if not, we can start back at the opening bracket.
 
 ![201.md change](201change.png)
 
