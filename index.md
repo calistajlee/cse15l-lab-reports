@@ -14,5 +14,3 @@
 
 
 [Lab Report 5, Week 10](https://calistajlee.github.io/cse15l-lab-reports/Lab_Report_4/lab-report-5-week-10.html)
-
-
